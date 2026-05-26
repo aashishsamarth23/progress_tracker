@@ -36,6 +36,7 @@ const today = () => new Date().toISOString().slice(0, 10);
 
 async function apiCall<T>(path: string, opts?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {
+    cache: "no-store",
     ...opts,
     headers: { "Content-Type": "application/json", ...(opts?.headers || {}) },
   });
