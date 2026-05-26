@@ -83,8 +83,8 @@ function Index() {
   }, [state]);
 
   if (loading) return <div className="mt-20 text-center text-slate-400">Loading mission control…</div>;
-  if (error || !state) return <div className="mt-20 text-center text-red-500">Failed to connect to backend. Is FastAPI running?</div>;
-
+  if (error || !state || !state.subjects) return <div className="mt-20 text-center text-red-500">Awaiting database initialization from backend...</div>;
+  
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <div className="mx-auto flex max-w-[1400px] gap-6 p-4 lg:p-6">
