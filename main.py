@@ -80,12 +80,19 @@ def load_data():
     if not data_str:
         raise HTTPException(status_code=500, detail="Database is empty. Run the seed script.")
         
-    return json.loads(data_str)
+    parsed_data = json.loads(data_str)
+    
+    # THE ANTIDOTE: If Upstash hands us back a string, parse it one more time into a dictionary
+    if isinstance(parsed_data, str):
+        parsed_data = json.loads(parsed_data)
+        
+    return parsed_data
 
 def save_data(data):
     headers = {"Authorization": f"Bearer {UPSTASH_TOKEN}"}
-    # Dump the Python dictionary back to a JSON string before saving
-    requests.post(f"{UPSTASH_URL}/set/progress", headers=headers, json=json.dumps(data))
+    # THE FIX: Use 'data=' instead of 'json=' so requests doesn't double-encode it
+    requests.post(f"{UPSTASH_URL}/set/progress", headers=headers, data=json.dumps(data))
+    
 def recalculate_progress(data):
     for subject_name, subject_data in data["subjects"].items():
         subject_relevant_tasks = 0
