@@ -1,0 +1,70 @@
+{
+  "student_id": "student_01",
+  "target_date": "2026-05-03",
+  "subjects": {
+    "Physics": {
+      "overall_progress": 0.0,
+      "color_theme": "#ef4444", 
+      "chapters": [
+        {
+          "chapter_id": "phy_01",
+          "name": "Kinematics",
+          "completion_percentage": 0.0,
+          "subtopics": [
+            { "name": "Frame of Reference & Straight Line", "status": "pending" },
+            { "name": "Vectors & Motion in a Plane", "status": "pending" },
+            { "name": "Uniform Circular Motion", "status": "pending" }
+          ]
+        }
+      ]
+    },
+    "Chemistry": {
+      "overall_progress": 0.0,
+      "color_theme": "#3b82f6",
+      "chapters": [
+        {
+          "chapter_id": "chem_01",
+          "name": "Chemical Bonding",
+          "completion_percentage": 0.0,
+          "subtopics": [
+            { "name": "VSEPR Theory", "status": "pending" },
+            { "name": "Valence Bond Theory & Hybridization", "status": "pending" },
+            { "name": "Molecular Orbital Theory", "status": "pending" }
+          ]
+        }
+      ]
+    },
+    "Botany": {
+      "overall_progress": 0.0,
+      "color_theme": "#22c55e",
+      "chapters": [
+        {
+          "chapter_id": "bot_01",
+          "name": "Cell: The Unit of Life",
+          "completion_percentage": 0.0,
+          "subtopics": [
+            { "name": "Prokaryotic vs Eukaryotic Cells", "status": "pending" },
+            { "name": "Cell Organelles", "status": "pending" },
+            { "name": "Nucleus & Chromosomes", "status": "pending" }
+          ]
+        }
+      ]
+    },
+    "Zoology": {
+      "overall_progress": 0.0,
+      "color_theme": "#eab308",
+      "chapters": [
+        {
+          "chapter_id": "zoo_01",
+          "name": "Human Reproduction",
+          "completion_percentage": 0.0,
+          "subtopics": [
+            { "name": "Male & Female Reproductive Systems", "status": "pending" },
+            { "name": "Gametogenesis & Menstrual Cycle", "status": "pending" },
+            { "name": "Fertilization to Parturition", "status": "pending" }
+          ]
+        }
+      ]
+    }
+  }
+}
