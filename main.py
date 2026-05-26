@@ -10,7 +10,11 @@ app = FastAPI(title="NEET Operational Tracker API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://progress-tracker-sand-seven.vercel.app",  # Your live Vercel dashboard
+        "http://localhost:5173",                           # For local testing
+        "http://localhost:3000"                            # Alternative local testing
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
