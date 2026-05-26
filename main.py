@@ -61,7 +61,8 @@ class MockTestAdd(BaseModel):
 import requests
 import json
 import os
-
+from dotenv import load_dotenv
+load_dotenv()
 # Pull credentials securely from Render environment variables
 UPSTASH_URL = os.environ.get("UPSTASH_REDIS_REST_URL")
 UPSTASH_TOKEN = os.environ.get("UPSTASH_REDIS_REST_TOKEN")

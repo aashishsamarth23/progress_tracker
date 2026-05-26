@@ -1,8 +1,11 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-UPSTASH_URL = "YOUR_UPSTASH_URL_HERE"
-UPSTASH_TOKEN = "YOUR_UPSTASH_TOKEN_HERE"
+UPSTASH_URL = os.environ.get("UPSTASH_REDIS_REST_URL")
+UPSTASH_TOKEN = os.environ.get("UPSTASH_REDIS_REST_TOKEN")
 
 # Load your local syllabus data
 with open("progress.json", "r") as f:
