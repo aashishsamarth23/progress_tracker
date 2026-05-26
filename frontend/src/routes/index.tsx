@@ -62,9 +62,17 @@ function Index() {
   const [error, setError] = useState(false);
 
   const fetchState = () => {
-    apiCall<ProgressState>("/api/progress", { method: "GET" })
-      .then((data) => { setState(data); setError(false); })
-      .catch(() => setError(true))
+    apiCall<any>("/api/progress", { method: "GET", cache: "no-store" })
+      .then((data) => {
+        // If the backend sent a double-encoded string, unpack it!
+        const parsedData = typeof data === "string" ? JSON.parse(data) : data;
+        setState(parsedData); 
+        setError(false); 
+      })
+      .catch((err) => {
+        console.error("Fetch error:", err);
+        setError(true);
+      })
       .finally(() => setLoading(false));
   };
 
