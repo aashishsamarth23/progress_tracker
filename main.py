@@ -58,16 +58,29 @@ class MockTestAdd(BaseModel):
     flagged_chapter_ids: List[str]
 
 # --- Core Functions ---
+import requests
+import json
+import os
+
+# Pull credentials securely from Render environment variables
+UPSTASH_URL = os.environ.get("UPSTASH_REDIS_REST_URL")
+UPSTASH_TOKEN = os.environ.get("UPSTASH_REDIS_REST_TOKEN")
+
 def load_data():
-    if not os.path.exists(DATA_FILE):
-        raise HTTPException(status_code=500, detail="progress.json not found.")
-    with open(DATA_FILE, "r") as f:
-        return json.load(f)
+    headers = {"Authorization": f"Bearer {UPSTASH_TOKEN}"}
+    response = requests.get(f"{UPSTASH_URL}/get/progress", headers=headers)
+    
+    # Upstash returns data inside a 'result' key
+    data_str = response.json().get("result")
+    if not data_str:
+        raise HTTPException(status_code=500, detail="Database is empty. Run the seed script.")
+        
+    return json.loads(data_str)
 
 def save_data(data):
-    with open(DATA_FILE, "w") as f:
-        json.dump(data, f, indent=2)
-
+    headers = {"Authorization": f"Bearer {UPSTASH_TOKEN}"}
+    # Dump the Python dictionary back to a JSON string before saving
+    requests.post(f"{UPSTASH_URL}/set/progress", headers=headers, json=json.dumps(data))
 def recalculate_progress(data):
     for subject_name, subject_data in data["subjects"].items():
         subject_relevant_tasks = 0
