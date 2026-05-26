@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
 });
 
 /* ---------------- API LAYER ---------------- */
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://progress-tracker-2z5q.onrender.com";
 
 type TaskStatus = "completed" | "pending";
 type SubjectName = "Physics" | "Chemistry" | "Botany" | "Zoology";
