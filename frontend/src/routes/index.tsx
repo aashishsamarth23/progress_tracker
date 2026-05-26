@@ -70,7 +70,7 @@ function Index() {
   useEffect(() => { fetchState(); }, []);
 
   const stats = useMemo(() => {
-    if (!state) return { avg: 0, done: 0, total: 0, backlogCount: 0, flagged: 0 };
+    if (!state || !state.subjects) return { avg: 0, done: 0, total: 0, backlogCount: 0, flagged: 0 };
     const allChapters = SUBJECTS.flatMap((s) => state.subjects[s]?.chapters || []);
     const avg = allChapters.length ? Math.round(allChapters.reduce((a, c) => a + c.completion_percentage, 0) / allChapters.length) : 0;
     const todaysTargets = state.daily_target.filter(t => t.date === today());
