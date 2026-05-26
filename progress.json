@@ -4,16 +4,526 @@
   "subjects": {
     "Physics": {
       "overall_progress": 0.0,
-      "color_theme": "#ef4444", 
+      "color_theme": "#ef4444",
       "chapters": [
         {
           "chapter_id": "phy_01",
+          "name": "Physics and Measurement",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_02",
           "name": "Kinematics",
           "completion_percentage": 0.0,
-          "subtopics": [
-            { "name": "Frame of Reference & Straight Line", "status": "pending" },
-            { "name": "Vectors & Motion in a Plane", "status": "pending" },
-            { "name": "Uniform Circular Motion", "status": "pending" }
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_03",
+          "name": "Laws of Motion",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_04",
+          "name": "Work, Energy and Power",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_05",
+          "name": "Rotational Motion",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_06",
+          "name": "Gravitation",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_07",
+          "name": "Properties of Solids and Liquids",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_08",
+          "name": "Thermodynamics",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_09",
+          "name": "Kinetic Theory of Gases",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_10",
+          "name": "Oscillations and Waves",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_11",
+          "name": "Electrostatics",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_12",
+          "name": "Current Electricity",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_13",
+          "name": "Magnetic Effects of Current and Magnetism",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_14",
+          "name": "Electromagnetic Induction and Alternating Currents",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_15",
+          "name": "Electromagnetic Waves",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_16",
+          "name": "Optics",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_17",
+          "name": "Dual Nature of Matter and Radiation",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_18",
+          "name": "Atoms and Nuclei",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_19",
+          "name": "Electronic Devices",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "phy_20",
+          "name": "Experimental Skills",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
           ]
         }
       ]
@@ -24,12 +534,522 @@
       "chapters": [
         {
           "chapter_id": "chem_01",
-          "name": "Chemical Bonding",
+          "name": "Some Basic Concepts of Chemistry",
           "completion_percentage": 0.0,
-          "subtopics": [
-            { "name": "VSEPR Theory", "status": "pending" },
-            { "name": "Valence Bond Theory & Hybridization", "status": "pending" },
-            { "name": "Molecular Orbital Theory", "status": "pending" }
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_02",
+          "name": "Structure of Atom",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_03",
+          "name": "Classification of Elements and Periodicity",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_04",
+          "name": "Chemical Bonding and Molecular Structure",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_05",
+          "name": "Thermodynamics",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_06",
+          "name": "Equilibrium",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_07",
+          "name": "Redox Reactions",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_08",
+          "name": "Solutions",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_09",
+          "name": "Electrochemistry",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_10",
+          "name": "Chemical Kinetics",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_11",
+          "name": "d and f Block Elements",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_12",
+          "name": "Coordination Compounds",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_13",
+          "name": "Purification and Characterisation of Organic Compounds",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_14",
+          "name": "Some Basic Principles of Organic Chemistry",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_15",
+          "name": "Hydrocarbons",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_16",
+          "name": "Haloalkanes and Haloarenes",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_17",
+          "name": "Alcohols, Phenols and Ethers",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_18",
+          "name": "Aldehydes, Ketones and Carboxylic Acids",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_19",
+          "name": "Organic Compounds Containing Nitrogen (Amines)",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "chem_20",
+          "name": "Biomolecules",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
           ]
         }
       ]
@@ -40,12 +1060,444 @@
       "chapters": [
         {
           "chapter_id": "bot_01",
+          "name": "The Living World",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_02",
+          "name": "Biological Classification",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_03",
+          "name": "Plant Kingdom",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_04",
+          "name": "Morphology of Flowering Plants",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_05",
+          "name": "Anatomy of Flowering Plants",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_06",
           "name": "Cell: The Unit of Life",
           "completion_percentage": 0.0,
-          "subtopics": [
-            { "name": "Prokaryotic vs Eukaryotic Cells", "status": "pending" },
-            { "name": "Cell Organelles", "status": "pending" },
-            { "name": "Nucleus & Chromosomes", "status": "pending" }
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_07",
+          "name": "Cell Cycle and Cell Division",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_08",
+          "name": "Photosynthesis in Higher Plants",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_09",
+          "name": "Respiration in Plants",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_10",
+          "name": "Plant Growth and Development",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_11",
+          "name": "Sexual Reproduction in Flowering Plants",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_12",
+          "name": "Principles of Inheritance and Variation",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_13",
+          "name": "Molecular Basis of Inheritance",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_14",
+          "name": "Microbes in Human Welfare",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_15",
+          "name": "Organisms and Populations",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_16",
+          "name": "Ecosystem",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "bot_17",
+          "name": "Biodiversity and Conservation",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
           ]
         }
       ]
@@ -56,15 +1508,415 @@
       "chapters": [
         {
           "chapter_id": "zoo_01",
+          "name": "Animal Kingdom",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_02",
+          "name": "Structural Organisation in Animals",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_03",
+          "name": "Biomolecules",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_04",
+          "name": "Breathing and Exchange of Gases",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_05",
+          "name": "Body Fluids and Circulation",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_06",
+          "name": "Excretory Products and their Elimination",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_07",
+          "name": "Locomotion and Movement",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_08",
+          "name": "Neural Control and Coordination",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_09",
+          "name": "Chemical Coordination and Integration",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_10",
           "name": "Human Reproduction",
           "completion_percentage": 0.0,
-          "subtopics": [
-            { "name": "Male & Female Reproductive Systems", "status": "pending" },
-            { "name": "Gametogenesis & Menstrual Cycle", "status": "pending" },
-            { "name": "Fertilization to Parturition", "status": "pending" }
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_11",
+          "name": "Reproductive Health",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_12",
+          "name": "Evolution",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_13",
+          "name": "Human Health and Disease",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_14",
+          "name": "Biotechnology: Principles and Processes",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "chapter_id": "zoo_15",
+          "name": "Biotechnology and its Applications",
+          "completion_percentage": 0.0,
+          "is_flagged": false,
+          "tasks": [
+            {
+              "task_id": "t1",
+              "name": "Notes Revision",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t2",
+              "name": "NCERT Reading",
+              "is_relevant": true,
+              "status": "pending"
+            },
+            {
+              "task_id": "t3",
+              "name": "Question Practice",
+              "is_relevant": true,
+              "status": "pending"
+            }
           ]
         }
       ]
     }
-  }
+  },
+  "daily_target": [],
+  "backlog": [],
+  "mock_tests": [
+    {
+      "date": "2026-05-26",
+      "score": 0,
+      "flagged_chapter_ids": [
+        "phy_05",
+        "phy_06"
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "score": 0,
+      "flagged_chapter_ids": [
+        "phy_05",
+        "phy_06"
+      ]
+    }
+  ]
 }

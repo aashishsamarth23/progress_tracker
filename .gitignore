@@ -1,0 +1,63 @@
+# === Operating System Files ===
+.DS_Store
+Thumbs.db
+*.local
+
+# === Python / FastAPI ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.htmlcov/
+htmlcov/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+
+# === Node / React ===
+node_modules/
+/build
+/dist
+.eslintcache
+.stylelintcache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === IDEs and Editors ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Environment Variables & Local Data ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# NOTE: If you want to keep the default empty progress.json structural template 
+# committed to git, leave the line below commented out. If you want to ensure 
+# your student's live prep data is never pushed to a public repo, uncomment it.
+# progress.json
